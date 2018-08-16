@@ -8,13 +8,13 @@
 
 3. Apresente aplicações de sistemas embarcados:
 	(a) Para a indústria automotiva;
-		> Para o controle dos sensores presentes no caro, para o controle de multimídia, para o computador de bordo, etc.
+		>> Para o controle dos sensores presentes no caro, para o controle de multimídia, para o computador de bordo, etc.
 
 	(b) Para eletrodomésticos;
-		> Para o controle dos sensores de uma geladeira, controle de congelamento; no caso de uma máquina de lavar, para o controle das programações e dos componentes; no caso da televisão, para o controle dos componentes internos e gerenciamento dos drivers, para a programação, entradas digitais, HDMI, entrada de cabo e antena, etc.
+		>> Para o controle dos sensores de uma geladeira, controle de congelamento; no caso de uma máquina de lavar, para o controle das programações e dos componentes; no caso da televisão, para o controle dos componentes internos e gerenciamento dos drivers, para a programação, entradas digitais, HDMI, entrada de cabo e antena, etc.
 
 	(c) Para automação industrial.
-		> Para o controle de bombas e motores, para o controle de iluminação, para o controle de temperatura e umidade, etc.
+		>> Para o controle de bombas e motores, para o controle de iluminação, para o controle de temperatura e umidade, etc.
 
 4. Cite arquiteturas possíveis e as diferenças entre elas.
 	> Existem as arquiteturas de software e hardware. 
