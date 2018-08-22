@@ -128,5 +128,8 @@
 
 
   (t) Escrever algo na tela.
+```bash
+	$ echo texto
+```
 
 
