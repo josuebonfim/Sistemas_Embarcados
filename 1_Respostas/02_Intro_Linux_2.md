@@ -3,11 +3,11 @@ Para todas as questões, escreva os comandos correspondentes no terminal.
 1. Escreva o texto "Ola mundo cruel!" em um arquivo denominado "Ola_mundo.txt". Apresente o conteúdo deste arquivo no terminal.
 ```bash
     $ cat ola_mundo.txt
-    ```
+```
 2. Apresente o nome de todos os arquivos e pastas na pasta 'root'.
 ```bash
     $ sudo su; cd /root/
-    ```
+```
 
 3. Apresente o tipo de todos os arquivos e pastas na pasta 'root'.
 
