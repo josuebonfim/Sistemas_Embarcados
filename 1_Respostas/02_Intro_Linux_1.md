@@ -4,7 +4,7 @@
 
 2. O que são daemons?
   
-  >São programas de computador que executam como um processo em plano de fundo, em vez de estar sob o controle direto de um usuário interativo. Ou seja, são programas que executam automaticamente para o bom funcionamento do sistema operacional e que são controlados diretamente pelo usuário.
+  >São programas de computador que executam como um processo em plano de fundo, em vez de estar sob o controle direto de um usuário interativo. Ou seja, são programas que executam automaticamente para o bom funcionamento do sistema operacional e que não são controlados diretamente pelo usuário.
 
 3. O que é o shell?
 
@@ -23,7 +23,7 @@
   >Pressionando a tecla UP. Para pesquisar um comando digitado executado anteriormente, deve-se pressionar "ctrl+r" ou "ctrl+s" e digitar o começo do comando para pesquisar.
 
 7. Apresente os respectivos comandos no terminal para: <br/>
-  (a) Obter mais informações sobre um comando.
+(a) Obter mais informações sobre um comando.
     ```bash
     $ man comando
     ```
@@ -32,104 +32,101 @@
     $ comando --help
     ```
 
-  (b) Apresentar uma lista com os arquivos dentro de uma pasta.
+(b) Apresentar uma lista com os arquivos dentro de uma pasta.
     
 ```bash
     $ comando --help
 ```
 
-  (c) Apresentar o caminho completo da pasta.
+(c) Apresentar o caminho completo da pasta.
 ```bash
     $ pwd
 ```
-  (d) Trocar de pasta.
-   
+(d) Trocar de pasta.   
 ```bash
     $ cd [caminho da pasta]
 ```
 
-  (e) Criar uma pasta.
+(e) Criar uma pasta.
 
 ```bash
     $ mkdir [nome da pasta]
 ```
 
-  (f) Apagar arquivos definitivamente.
+(f) Apagar arquivos definitivamente.
 ```bash
     $ rm [nome do arquivo]
 ```
 
-  (g) Apagar pastas definitivamente.
+(g) Apagar pastas definitivamente.
     
 ```bash
     $ rm [caminho da pasta]
 ```
 
-  (h) Copiar arquivos.
+(h) Copiar arquivos.
     
 ```bash
     $ cp [origem do arquivo] [destino do arquivo]
 ```
 
-  (i) Copiar pastas.
+(i) Copiar pastas.
     
 ```bash
     $ cp -r [origem da pasta] [destino da pasta]
 ```
 
-  (j) Mover arquivos.
+(j) Mover arquivos.
     
 ```bash
     $ mv [origem do arquivo] [destino do arquivo]
 ```
 
-  (k) Mover pastas.
+(k) Mover pastas.
     
 ```bash
     $ mv -t [origem da pasta] [destino da pasta]
 ```
 
-  (l) Renomear pastas.
+(l) Renomear pastas.
 
 
-  (m) Apresentar o conteúdo de um arquivo.
-    
+(m) Apresentar o conteúdo de um arquivo.
+
 ```bash
     $ cat [nome_do_arquivo]
 ```
 
-  (n) Apresentar o tipo de um arquivo.
+(n) Apresentar o tipo de um arquivo.
 ```bash
     $  [origem] [destino]
 ```
 
-  (o) Limpar a tela do terminal.
+(o) Limpar a tela do terminal.
 ```bash
     $ clear
 ```
 
-  (p) Encontrar ocorrências de palavras-chave em um arquivo-texto.
+(p) Encontrar ocorrências de palavras-chave em um arquivo-texto.
 ```bash
     $ grep -c palavra-chave arquivo.extensão
 ```  
 
-  (q) Ordenar informações em um arquivo-texto.
+(q) Ordenar informações em um arquivo-texto.
 
 
-  (r) Substituir ocorrências de palavras-chave em um arquivo-texto.
+(r) Substituir ocorrências de palavras-chave em um arquivo-texto.
 ```bash
     $ sed -e palavra-chave arquivo.extensão
 ```
 
-  (s) Conferir se dois arquivos são iguais.
+(s) Conferir se dois arquivos são iguais.
 ```bash
-	$ diff arquivo1 arquivo 2
+    $ diff arquivo1 arquivo 2
 ```
-
-
-  (t) Escrever algo na tela.
+(t) Escrever algo na tela.
 ```bash
-	$ echo texto
+    $ echo texto
 ```
 
 
