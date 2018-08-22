@@ -31,69 +31,69 @@
     ```bash
     $ comando --help
     ```
-  (b) Apresentar uma lista com os arquivos dentro de uma pasta.
+  (b) Apresentar uma lista com os arquivos dentro de uma pasta.<br/>
     ```bash
     $ ls
     ```
-  (c) Apresentar o caminho completo da pasta.
+  (c) Apresentar o caminho completo da pasta.<br/>
     ```bash
     $ pwd
     ```
-  (d) Trocar de pasta.
+  (d) Trocar de pasta.<br/>
     ```bash
     $ cd [caminho da pasta]
     ```
-  (e) Criar uma pasta.
+  (e) Criar uma pasta.<br/>
     ```bash
     $ mkdir [nome da pasta]
     ```
-  (f) Apagar arquivos definitivamente.
+  (f) Apagar arquivos definitivamente.<br/>
     ```bash
     $ rm [nome do arquivo]
     ```
-  (g) Apagar pastas definitivamente.
+  (g) Apagar pastas definitivamente.<br/>
     ```bash
     $ rm [caminho da pasta]
     ```
-  (h) Copiar arquivos.
+  (h) Copiar arquivos.<br/>
     ```bash
     $ cp [origem do arquivo] [destino do arquivo]
     ```
-  (i) Copiar pastas.
+  (i) Copiar pastas.<br/>
     ```bash
     $ cp -r [origem da pasta] [destino da pasta]
     ```
-  (j) Mover arquivos.
+  (j) Mover arquivos.<br/>
     ```bash
     $ mv [origem do arquivo] [destino do arquivo]
     ```
-  (k) Mover pastas.
+  (k) Mover pastas.<br/>
     ```bash
     $ mv -t [origem da pasta] [destino da pasta]
     ```
-  (l) Renomear pastas.
+  (l) Renomear pastas.<br/>
 
 
-  (m) Apresentar o conteúdo de um arquivo.
+  (m) Apresentar o conteúdo de um arquivo.<br/>
     ```bash
     $ cat [nome_do_arquivo]
     ```
-  (n) Apresentar o tipo de um arquivo.
+  (n) Apresentar o tipo de um arquivo.<br/>
     ```bash
     $  [origem] [destino]
     ```
-  (o) Limpar a tela do terminal.
+  (o) Limpar a tela do terminal.<br/>
     ```bash
     $ clear
     ```
-  (p) Encontrar ocorrências de palavras-chave em um arquivo-texto.
+  (p) Encontrar ocorrências de palavras-chave em um arquivo-texto.<br/>
     ```bash
     $ grep -c palavra-chave arquivo.extensão
     ```  
-  (q) Ordenar informações em um arquivo-texto.
+  (q) Ordenar informações em um arquivo-texto.<br/>
 
 
-  (r) Substituir ocorrências de palavras-chave em um arquivo-texto.
+  (r) Substituir ocorrências de palavras-chave em um arquivo-texto.<br/>
   ```bash
     $ sed -e palavra-chave arquivo.extensão
     ```
