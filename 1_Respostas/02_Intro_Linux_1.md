@@ -31,99 +31,102 @@
     ```bash
     $ comando --help
     ```
-  (b) Apresentar uma lista com os arquivos dentro de uma pasta.<br/>
-  
-    ```bash
-    $ ls
-    ```
+
+  (b) Apresentar uma lista com os arquivos dentro de uma pasta.
     
-  (c) Apresentar o caminho completo da pasta.<br/>
-  
-    ```bash
+```bash
+    $ comando --help
+```
+
+  (c) Apresentar o caminho completo da pasta.
+```bash
     $ pwd
-    ``` 
-   <br/>
-  (d) Trocar de pasta.<br/>
-  
-    ```bash
+```
+  (d) Trocar de pasta.
+   
+```bash
     $ cd [caminho da pasta]
-    ```
-   <br/>
-    
-  (e) Criar uma pasta.<br/>
-    ```bash
+```
+
+  (e) Criar uma pasta.
+
+```bash
     $ mkdir [nome da pasta]
-    ```
-   <br/>
-  (f) Apagar arquivos definitivamente.<br/>
-    ```bash
+```
+
+  (f) Apagar arquivos definitivamente.
+```bash
     $ rm [nome do arquivo]
-    ```<br/>
-  (g) Apagar pastas definitivamente.<br/>
-    ```bash
+```
+
+  (g) Apagar pastas definitivamente.
+    
+```bash
     $ rm [caminho da pasta]
-    ```
-    <br/>
-  (h) Copiar arquivos.<br/>
-    ```bash
+```
+
+  (h) Copiar arquivos.
+    
+```bash
     $ cp [origem do arquivo] [destino do arquivo]
-    ```
-    <br/>
-  (i) Copiar pastas.<br/>
-    ```bash
+```
+
+  (i) Copiar pastas.
+    
+```bash
     $ cp -r [origem da pasta] [destino da pasta]
-    ```
-    <br/>
-  (j) Mover arquivos.<br/>
-    ```bash
+```
+
+  (j) Mover arquivos.
+    
+```bash
     $ mv [origem do arquivo] [destino do arquivo]
-    ```
-    <br/>
-  (k) Mover pastas.<br/>
-    ```bash
+```
+
+  (k) Mover pastas.
+    
+```bash
     $ mv -t [origem da pasta] [destino da pasta]
-    ```
-    <br/>
-  (l) Renomear pastas.<br/>
+```
+
+  (l) Renomear pastas.
 
 
-  (m) Apresentar o conteúdo de um arquivo.<br/>
-    ```bash
+  (m) Apresentar o conteúdo de um arquivo.
+    
+```bash
     $ cat [nome_do_arquivo]
-    ```
-    <br/>
-  (n) Apresentar o tipo de um arquivo.<br/>
-    ```bash
-    $  [origem] [destino]
-    ```
-    <br/>
-  (o) Limpar a tela do terminal.<br/>
-    ```bash
-    $ clear
-    ```
-    <br/>
-  (p) Encontrar ocorrências de palavras-chave em um arquivo-texto.<br/>
-    ```bash
-    $ grep -c palavra-chave arquivo.extensão
-    ``` 
-    <br/>
-  (q) Ordenar informações em um arquivo-texto.<br/>
+```
 
-<br/>
-  (r) Substituir ocorrências de palavras-chave em um arquivo-texto.<br/>
-	```bash
-	$ sed -e palavra-chave arquivo.extensão
-	```
-	<br/>
-	
+  (n) Apresentar o tipo de um arquivo.
+```bash
+    $  [origem] [destino]
+```
+
+  (o) Limpar a tela do terminal.
+```bash
+    $ clear
+```
+
+  (p) Encontrar ocorrências de palavras-chave em um arquivo-texto.
+```bash
+    $ grep -c palavra-chave arquivo.extensão
+```  
+
+  (q) Ordenar informações em um arquivo-texto.
+
+
+  (r) Substituir ocorrências de palavras-chave em um arquivo-texto.
+```bash
+    $ sed -e palavra-chave arquivo.extensão
+```
+
   (s) Conferir se dois arquivos são iguais.
-	```bash
+```bash
 	$ diff arquivo1 arquivo 2
-    	```
-	<br/>
+```
+
 
   (t) Escrever algo na tela.
-  <br/>
-  <br/>
 
 
