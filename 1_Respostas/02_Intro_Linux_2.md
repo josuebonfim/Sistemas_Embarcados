@@ -36,9 +36,12 @@ Para as questões a seguir, use a pasta no endereço https://github.com/DiogoCae
 ```
 10. Liste somente os arquivos que contenham o nome 'cal'.
 ```bash
-	$ ls -l *txt
+	$ ls cal*
 ```
 11. Liste somente os arquivos que contenham o nome 'tux'.
+```bash
+	$ ls cal*
+```
 
 12. Liste somente os arquivos que comecem com o nome 'tux'.
 ```bash
