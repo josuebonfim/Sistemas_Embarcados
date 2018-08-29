@@ -16,6 +16,8 @@
 
 5. Qual botão do teclado completa o que o usuário escreve no terminal, de acordo com o contexto?
 
+sdfasdf
+
   >TAB.
 
 6. Quais botões do teclado apresentam instruções escritas anteriormente?
