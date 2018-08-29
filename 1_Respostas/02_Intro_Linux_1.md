@@ -12,7 +12,9 @@
 
 4. Por que é importante evitar executar o terminal como super-usuário?
   
-  >Porque o super-usuário permite que ferramentas que não estão disponíveis para os demais usuários possam ser acessadas. Uma vez que o usuário entra nesse modo, ele pode realizar tarefas que um usuário normal não conseguiria. Isso pode acarretar em possíveis mudanças acidentais ou não e que podem ou não ser reversíveis. 
+  >Porque o super-usuário permite que ferramentas que não estão disponíveis para os demais usuários possam ser acessadas. Uma vez que o usuário entra nesse modo, ele pode realizar tarefas que um usuário normal não conseguiria. Isso pode acarretar em possíveis mudanças acidentais ou não e que podem ou não ser reversíveis.
+
+  teste 
 
 5. Qual botão do teclado completa o que o usuário escreve no terminal, de acordo com o contexto?
 
