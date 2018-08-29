@@ -16,7 +16,7 @@
 
 5. Qual botão do teclado completa o que o usuário escreve no terminal, de acordo com o contexto?
 
-sdfasdf
+
 
   >TAB.
 
