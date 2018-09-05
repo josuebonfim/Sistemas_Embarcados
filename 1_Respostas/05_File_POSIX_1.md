@@ -2,6 +2,9 @@
 
 (a) Quais são as funções (e seus protótipos) para abrir e fechar arquivos?
 
+```
+```
+
 (b) Quais são as funções (e seus protótipos) para escrever em arquivos?
 
 (c) Quais são as funções (e seus protótipos) para ler arquivos?
