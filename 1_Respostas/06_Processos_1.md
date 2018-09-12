@@ -47,8 +47,6 @@ ps -e -o etime
 (a) `execp()`?
 > Permite que o nome ou a procura do programa esteja no caminho atual, ou "curren path".
 
-
-
 (b) `execv()`?
 > Permite que a lista de argumentos do novo programa seja nula.
 
