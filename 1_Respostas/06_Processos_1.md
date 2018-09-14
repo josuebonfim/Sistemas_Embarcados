@@ -22,8 +22,7 @@ $ ps -aux
 ```bash
 $ ps -e -o etime
 ```
-
-### 2. De onde vem o nome `fork()`?
+2. De onde vem o nome `fork()`?
 
 > Fork vem de bifurcação. No Linux/GNU, o comando fork cria uma cópia exata do processo que chama a função.
 
