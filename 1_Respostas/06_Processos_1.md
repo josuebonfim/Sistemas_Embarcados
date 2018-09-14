@@ -1,11 +1,10 @@
-### 1. Como se utiliza o comando `ps` para:
-
-* (a) Mostrar todos os processos rodando na máquina?
+1. Como se utiliza o comando `ps` para:
+(a) Mostrar todos os processos rodando na máquina?
 
 ```bash
 $ ps -e
 ```
-***
+
 (b) Mostrar os processos de um usuário?
 
 ```bash
@@ -31,8 +30,6 @@ $ ps -e -o etime
 3. Quais são as vantagens e desvantagens em utilizar:
 
 (a) `system()`?
-
-$$x_{1,2} = {-b\pm\sqrt{b^2 - 4ac} \over 2a}.$$
 
 > Permite executar um comando dentro de um programa, criando um subprocesso. Ela retorna em sua saída o status do comando no shell. Se o shell não puder ser executado,o system() retorna o valor 127 e se outro erro ocorrer, retorna o valor -1. O uso do system não é recomendado para todos os casos, pois mesmo sendo simples, dá brechas à falhas de execução pois depende muito do sistema. 
 
