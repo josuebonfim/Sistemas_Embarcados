@@ -6,6 +6,6 @@
 
 Ao final do programa principal, compare os resultados obtidos pelos dois métodos.
 
-2. Repita o exercício anterior, mas calcule o produto matricial A*B.
+2. Repita o exercício anterior, mas calcule o produto matricial `A*B`.
 
 3. Repita o exercício anterior, mas calcule o produto da matriz `long int A[60][60]` por um escalar `long int x`.
