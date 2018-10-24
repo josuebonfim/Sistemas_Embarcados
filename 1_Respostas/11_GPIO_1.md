@@ -9,16 +9,3 @@
 5. Apresente as formas possíveis de compilação de código em C para o Raspberry Pi.
 
 6. Apresente as formas possíveis de compilação de código em Python para o Raspberry Pi.
-
-
-
-
-
-
-
-
-
-
-
-
-
