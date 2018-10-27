@@ -25,6 +25,7 @@ int main(int argc, char const *argv[])
 {
 	//Declarações
 	char opcao;
+	FILE *arquivo;
 
 	//Instruções
 
@@ -56,10 +57,10 @@ int main(int argc, char const *argv[])
 		printf("\n");
 		printf("\n");
 		printf("\n");
-		printf("Digite a opcao de acordo com o menu acima: ");
-		opcao = getche();
-		fflush(stdin);
-		opcao = validaOpcao(opcao);
+		system("python3 opcao_menu.py");
+		arquivo = fopen("pipe.txt", "r");
+		opcao = fgetc(arquivo);
+		fclose(arquivo);
 		switch(opcao)
 		{
 			case 'N':
@@ -80,16 +81,6 @@ int main(int argc, char const *argv[])
 	}while(opcao != 'S');
 	return 0;
 }
-
-char validaOpcao(char opcao)
-{
-	while(toupper(opcao)!= 'N' && toupper(opcao) != 'E' && toupper(opcao) != 'D' && toupper(opcao) != 'S')
-	{
-		printf("\nOpcao invalida. Digite novamente: ");
-		opcao = getche();
-	}
-}
-
 
 void novoUsuario()
 {
