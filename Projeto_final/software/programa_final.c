@@ -3,6 +3,7 @@
 #include <string.h>
 #include <ctype.h>
 #include <curses.h>
+//#include <conio.h>
 
 //Struct do Usuário
 typedef struct 
@@ -10,7 +11,7 @@ typedef struct
 	char nome[60];
 	char data_aniversario[40];
 	char email[50];
-	int numero;
+	char numero[3];
 }dados_usuario;
 
 //Declaração das Funções
@@ -56,7 +57,7 @@ int main(int argc, char const *argv[])
 		printf("\n");
 		printf("\n");
 		printf("Digite a opcao de acordo com o menu acima: ");
-		opcao = getchar();
+		opcao = getche();
 		fflush(stdin);
 		opcao = validaOpcao(opcao);
 		switch(opcao)
@@ -85,7 +86,7 @@ char validaOpcao(char opcao)
 	while(toupper(opcao)!= 'N' && toupper(opcao) != 'E' && toupper(opcao) != 'D' && toupper(opcao) != 'S')
 	{
 		printf("\nOpcao invalida. Digite novamente: ");
-		opcao = getchar();
+		opcao = getche();
 	}
 }
 
@@ -102,36 +103,7 @@ void novoUsuario()
 	printf("\n");
 	printf("\n");
 
-	/*printf("Nome: ");
-	scanf("%s", temp.nome);
-	fflush(stdin);
-
-	printf("Data de Nascimento: ");
-	scanf("%s", temp.data_aniversario);
-	fflush(stdin);
-
-	printf("e-mail: ");
-	scanf("%s", temp.email);
-	fflush(stdin);*/
-
-	i = 0;
-
-	arquivo = fopen("test.txt", "r");
-	while(!feof(arquivo))
-	{
-		fseek(arquivo, ftell(arquivo), SEEK_SET);
-		fgets(temp.nome, sizeof(temp.nome), arquivo);
-		//
-		fgets(temp.data_aniversario, sizeof(temp.data_aniversario), arquivo);
-		fgets(temp.email, sizeof(temp.email), arquivo);
-	}
-	printf("%s\n", temp.nome);
-	printf("%s\n", temp.data_aniversario);
-	printf("%s\n", temp.email);
-	fclose(arquivo);
-
-	system("sleep 5");
-	//system("python3 novoUsuario.py");
+	system("python3 novoUsuario.py");
 }
 
 void editaUsuario()
