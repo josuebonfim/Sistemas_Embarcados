@@ -14,4 +14,4 @@
 
 2. Apresente outras 3 bibliotecas de acesso I/O em C para o Raspberry Pi.
 
-> Via biblioteca Wiringpi(http://wiringpi.com/), via pigpio(http://abyz.me.uk/rpi/pigpio/index.html) e via bcm2835(http://www.airspayce.com/mikem/bcm2835/).
+> Via biblioteca [Wiringpi](http://wiringpi.com/), via [pigpio](http://abyz.me.uk/rpi/pigpio/index.html) e via [bcm2835](http://www.airspayce.com/mikem/bcm2835/).
