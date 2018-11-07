@@ -6,7 +6,7 @@
 
 (b) Quais pinos possuem resistores de pull-up e pull-down?
 
->
+> Todos os pinos de GPIO possuem resistores de pull-up programáveis.
 
 (c) Quais formas de comunicação serial são suportados pelos pinos GPIO?
 
