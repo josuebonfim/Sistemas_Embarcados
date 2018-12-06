@@ -346,6 +346,8 @@ void novoUsuario()
 	temp.email[0] = '\0';
 	temp.data_aniversario[0] = '\0';
 	temp.numero[0] = '\0';
+	
+	system("./upload.sh");
 }
 
 int deletaUsuario()
